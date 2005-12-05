@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title tal:content="template/title">The title</title>
+  </head>
+  <body>    
+
+<form action="manage_addXWFPluggableFile" method="post" enctype="multipart/form-data">
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td align="left" valign="top">
+  <div class="form-label">
+  Id &nbsp;
+  </div>
+  </td>
+
+  <td align="left" valign="top">
+  <input type="text" name="id" size="25" value="">
+  </td>
+</tr><tr>
+  <td align="left" valign="top">
+  <div class="form-label">
+  File &nbsp;
+  </div>
+  </td>
+
+  <td align="left" valign="top">
+  <input type="file" name="file_object" size="25" value="">
+  </td>
+</tr>
+<tr>
+  <td></td>
+  <td align="left" valign="top">
+  <div class="form-element">
+    
+    <input class="form-element" type="submit"
+           value="Upload File">
+  </div>
+
+  </td>
+</tr>
+</table>
+</form>
+
+  </body>
+</html>
+

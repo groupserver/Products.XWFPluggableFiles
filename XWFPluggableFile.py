@@ -23,17 +23,17 @@ from Products.PageTemplates.PageTemplateFile import PageTemplateFile
 from Interface import Interface
 
 from AccessControl import getSecurityManager, ClassSecurityInfo
-from Globals import InitializeClass, PersistentMapping
+from Globals import InitializeClass
 from OFS.Image import File
 
 from Products.XWFCore.XWFCatalogAware import XWFCatalogAware
-from Products.XWFCore.XWFUtils import getOption, convertTextToAscii, removePathsFromFilenames
+from Products.XWFCore.XWFUtils import convertTextToAscii, removePathsFromFilenames
 from Products.XWFContentFramework.XWFDataObject import XWFDataObject
 
 from ComputedAttribute import ComputedAttribute
 from ZPublisher.HTTPRequest import FileUpload
 
-from types import *
+from types import * #@UnusedWildImport
 
 from zLOG import LOG, INFO
 

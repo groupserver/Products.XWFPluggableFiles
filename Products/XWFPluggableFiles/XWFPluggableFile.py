@@ -19,8 +19,9 @@
 #
 import os
 
+from zope.interface import Interface
+
 from Products.PageTemplates.PageTemplateFile import PageTemplateFile
-from Interface import Interface
 
 from AccessControl import getSecurityManager, ClassSecurityInfo
 from Globals import InitializeClass

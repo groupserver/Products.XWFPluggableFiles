@@ -24,7 +24,7 @@ from zope.interface import Interface
 from Products.PageTemplates.PageTemplateFile import PageTemplateFile
 
 from AccessControl import getSecurityManager, ClassSecurityInfo
-from Globals import InitializeClass
+from AccessControl.class_init import InitializeClass
 from OFS.Image import File
 
 from Products.XWFCore.XWFCatalogAware import XWFCatalogAware
